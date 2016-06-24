@@ -31,7 +31,7 @@ public class CrossDomainFilter extends OncePerRequestFilter {
     }
 
     // 设置允许跨域访问
-    LOG.debug("Request Origin = {}", request.getHeader("Origin"));
+//    LOG.debug("Request Origin = {}", request.getHeader("Origin"));
 
     if (allowCrossDomain) {
       // 重要：clientIp不能为*，否则session无法传递到服务器端.
