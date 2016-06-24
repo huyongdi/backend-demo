@@ -1,6 +1,10 @@
+app:
+  name: backend-demo
+  api: true  # 是否生成swagger-ui api文档
+  cross-domain: true  # 是否允许跨域
+
 logging:
   config: classpath:log.xml
-
 
 server:
   port: 8080  # 端口
