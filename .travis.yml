@@ -1,0 +1,10 @@
+language: java
+
+jdk: Oracle JDK 8
+
+branches:
+  only:
+    - master
+
+script:
+  - mvn test
