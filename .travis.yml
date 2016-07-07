@@ -7,4 +7,6 @@ branches:
     - master
 
 script:
+  - mvn clean
   - mvn test
+  - mvn package
